@@ -269,6 +269,16 @@
             overflow: hidden;
             height: 220px;
             background: var(--bg-medium);
+            position: relative;
+        }
+
+        .map-iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
 
         .address-box {
@@ -440,11 +450,11 @@
     <!-- Map section -->
     <div class="map-card fade-in-up">
         <div class="map-iframe-container">
-            <!-- Search Hansi Model Town Generic Map -->
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d446229.0737008794!2d75.65332304464535!3d29.10082042377803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391238c4fb8b909b%3A0x9c0d513b2856d168!2sChiranjeevi%20Hospital!5e0!3m2!1sen!2sin!4v1776234607133!5m2!1sen!2sin" 
-                width="600" height="450" 
-                loading="lazy">
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487.3217983057194!2d75.96160107530666!3d29.110978275407026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391238c4fb8b909b%3A0x9c0d513b2856d168!2sChiranjeevi%20Hospital!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
         <div class="address-box">
